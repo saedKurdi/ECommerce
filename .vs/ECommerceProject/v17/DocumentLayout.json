@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06AA5740-9BA3-4882-A266-43C8990E602E}|ECommerceProject.Business\\ECommerceProject.Business.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.business\\ecommerceproject.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06AA5740-9BA3-4882-A266-43C8990E602E}|ECommerceProject.Business\\ECommerceProject.Business.csproj|solutionrelative:ecommerceproject.business\\ecommerceproject.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\views\\shared\\components\\categorylist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\views\\shared\\components\\categorylist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\models\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\models\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|c:\\users\\asus\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\it step\\my drive\\asp.net\\elvin camalzade\\lessons\\ecommerceproject\\ecommerceproject.webui\\viewcomponents\\categorylistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF395BCF-3451-4C2F-975F-8B704D4371D3}|ECommerceProject.WebUI\\ECommerceProject.WebUI.csproj|solutionrelative:ecommerceproject.webui\\viewcomponents\\categorylistviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ECommerceProject.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.Business\\ECommerceProject.Business.csproj",
+              "RelativeDocumentMoniker": "ECommerceProject.Business\\ECommerceProject.Business.csproj",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.Business\\ECommerceProject.Business.csproj",
+              "RelativeToolTip": "ECommerceProject.Business\\ECommerceProject.Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T16:06:30.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ECommerceProject.WebUI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:36:44.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+              "RelativeToolTip": "ECommerceProject.WebUI\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T15:29:15.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Models\\ProductListViewModel.cs",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\Models\\ProductListViewModel.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Models\\ProductListViewModel.cs",
+              "RelativeToolTip": "ECommerceProject.WebUI\\Models\\ProductListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:14:28.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ECommerceProject.WebUI\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T14:56:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\Program.cs",
+              "RelativeToolTip": "ECommerceProject.WebUI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:43:53.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryListViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\ViewComponents\\CategoryListViewComponent.cs",
+              "RelativeDocumentMoniker": "ECommerceProject.WebUI\\ViewComponents\\CategoryListViewComponent.cs",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\IT STEP\\My Drive\\ASP.NET\\ELVIN CAMALZADE\\Lessons\\ECommerceProject\\ECommerceProject.WebUI\\ViewComponents\\CategoryListViewComponent.cs",
+              "RelativeToolTip": "ECommerceProject.WebUI\\ViewComponents\\CategoryListViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:40:24.573Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
