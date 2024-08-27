@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-
 namespace ECommerceProject.WebUI.Extensions;
 public static class SessionExtensionMethods
 {
