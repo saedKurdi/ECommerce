@@ -11,5 +11,6 @@ namespace ECommerceProject.WebUI.Models
         public int CurrentPage { get; internal set; }
         public string? FilterByName { get; set; }
         public string? FilterByPrice { get; set; } 
+        public bool IsAdmin { get; set; }
     }
 }

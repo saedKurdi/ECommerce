@@ -19,7 +19,6 @@ public class EFEntityRepositoryBase<TEntity, TContext>
             var addedEntity = context.Entry(entity);
             addedEntity.State = EntityState.Added;
             await context.SaveChangesAsync();
-        
     }
 
     public async Task Delete(TEntity entity)

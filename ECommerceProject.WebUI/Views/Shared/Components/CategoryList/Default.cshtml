@@ -7,6 +7,23 @@
         {
             css += " active";
         }
-        <a href="/product/index?category=@item.CategoryId" style="cursor:pointer;" class="@css">@item.CategoryName</a>
+        @if(Model.IsAdmin){
+            <div style="display:flex;gap:15px;align-items:center;">
+                <a href="/admin/index?category=@item.CategoryId" style="cursor:pointer;" class="@css">@item.CategoryName</a>
+                <a style="color:red;border-radius:50px;" href="/Admin/RemoveCategory?categoryId=@item.CategoryId&category=@Model.CurrentCategory">--</a>
+            </div>
+        }
+        @if(!Model.IsAdmin)
+        {
+            <a href="/product/index?category=@item.CategoryId" style="cursor:pointer;" class="@css">@item.CategoryName</a>
+        }
+    }
+    @if (Model.IsAdmin)
+    {
+        var name = "";
+        
+            <input asp-for="@name" placeholder="Category Name"/>
+            <a href="/Admin/AddCategory?categoryName=@name">Add</a>
+    
     }
 </section>

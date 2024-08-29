@@ -1,0 +1,16 @@
+﻿@model AddProductViewModel
+
+<form asp-action="AddProduct" asp-controller="Admin">
+    <input asp-for="@Model.Product.ProductName" placeholder="Product Name"/>
+    <input asp-for="@Model.Product.SupplierId" placeholder="Supplier Id"/>
+    <input asp-for="@Model.Product.CategoryId" placeholder="Category Id"/>
+    <input asp-for="@Model.Product.QuantityPerUnit" placeholder="Quantity Per Unit"/>
+    <input asp-for="@Model.Product.UnitPrice" placeholder="Unit Price "/>
+    <input asp-for="@Model.Product.UnitsInStock" placeholder="Units In Stock"/>
+    <input asp-for="@Model.Product.UnitsOnOrder" placeholder="Units In Order"/>
+    <input asp-for="@Model.Product.ReorderLevel" placeholder="Reorder Level"/>
+    <div style="display:flex;gap:15px;">
+        <button type="submit">Add New Product To DB</button>
+        <a href="/Admin/Index">Cancel</a>
+    </div>
+</form>

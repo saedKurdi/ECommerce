@@ -17,3 +17,4 @@ C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CA
 C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CAMALZADE\Lessons\ECommerceProject\ECommerceProject.DataAccess\bin\Debug\net8.0\ECommerceProject.Core.pdb
 C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CAMALZADE\Lessons\ECommerceProject\ECommerceProject.DataAccess\bin\Debug\net8.0\ECommerceProject.Entities.pdb
 C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CAMALZADE\Lessons\ECommerceProject\ECommerceProject.DataAccess\obj\Debug\net8.0\ECommerc.6669B09B.Up2Date
+C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CAMALZADE\Lessons\ECommerceProject\ECommerceProject.DataAccess\obj\Debug\net8.0\ECommerceProject.DataAccess.sourcelink.json

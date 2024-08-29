@@ -46,11 +46,11 @@ else
                         @item.UnitsInStock
                     </td>
                     <td>
-                        <a class="btn btn btn-success" href="/Cart/AddToCart">Add To Cart</a>
+                        <a class="btn btn btn-success" href="/Cart/AddToCart?productId=@item.ProductId&page=@Model.CurrentPage&category=@Model.CurrentCategory">Add To Cart</a>
                     </td>
                 </tr>
             }
         </tbody>
   </table>  
-  <product-list-pager current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
+  <product-list-pager is-admin=@false current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
 }

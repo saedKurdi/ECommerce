@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Asus\OneDrive\Рабочий стол\IT STEP\My Drive\ASP.NET\ELVIN CAMALZADE\Lessons\ECommerceProject\ECommerceProject.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Admin/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/OneDrive/Рабочий стол/IT STEP/My Drive/ASP.NET/ELVIN CAMALZADE/Lessons/ECommerceProject/ECommerceProject.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]

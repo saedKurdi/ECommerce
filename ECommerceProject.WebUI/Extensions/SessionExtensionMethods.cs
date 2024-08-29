@@ -8,7 +8,7 @@ public static class SessionExtensionMethods
         session.SetString(key, objectString);
     }
 
-    public static T GetObject<T>(this ISession session, string key) where T : class
+    public static T? GetObject<T>(this ISession session, string key) where T : class
     {
         string objectString = session.GetString(key);
         if (string.IsNullOrEmpty(objectString))

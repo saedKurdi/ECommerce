@@ -5,7 +5,6 @@ using ECommerceProject.DataAccess.Concrete.EFEntityFramework;
 using ECommerceProject.Entities.Models;
 using ECommerceProject.WebUI.Services;
 using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

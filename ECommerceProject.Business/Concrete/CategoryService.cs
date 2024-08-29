@@ -10,8 +10,19 @@ public class CategoryService : ICategoryService
     {
         _categoryDal = categoryDal;
     }
+
+    public async Task AddCategory(Category category)
+    {
+        await _categoryDal.Add(category);
+    }
+
     public async Task<List<Category>> GetAllAsync()
     {
         return await _categoryDal.GetList();
+    }
+
+    public async Task RemoveCategory(Category category)
+    {
+        await _categoryDal.Delete(category);
     }
 }

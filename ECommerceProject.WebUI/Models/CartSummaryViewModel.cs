@@ -1,9 +1,6 @@
 ﻿using ECommerceProject.Entities.Concrete;
-
-namespace ECommerceProject.WebUI
+namespace ECommerceProject.WebUI;
+public class CartSummaryViewModel
 {
-    public class CartSummaryViewModel
-    {
-        public Cart ? Cart { get; set; }
-    }
+    public Cart ? Cart { get; set; }
 }

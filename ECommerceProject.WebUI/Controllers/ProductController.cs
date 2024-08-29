@@ -17,6 +17,7 @@ namespace ECommerceProject.WebUI.Controllers
         {
             var items = await _productService.GetAllByCategoryAsync(category);
             int pageSize = 10;
+            
 
             bool e1 = filterName == "a-z" ? true : false;
             bool e2 = filterPrice == "lower" ? true : false;
