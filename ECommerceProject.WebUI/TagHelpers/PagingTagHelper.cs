@@ -58,7 +58,7 @@ public class PagingTagHelper : TagHelper
                 else
                 {
                     sb.Append("<li>");
-                    sb.AppendFormat("<a class='page-link' href='/admin/index?page={0}&category={1}'>next</a>", nextPage, CurrentCategory);
+                    sb.AppendFormat("<a class='page-link' href='/product/index?page={0}&category={1}'>next</a>", nextPage, CurrentCategory);
                     sb.Append("</li>");
                 }
             }

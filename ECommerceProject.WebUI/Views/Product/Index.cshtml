@@ -1,56 +1,60 @@
 ﻿@model ProductListViewModel
-@if(Model.Products == null || Model.Products.Count == 0)
-{
-    <span class="alert alert-info">No Product Exsist !</span>
-}
-else
-{
-    <p>Filtering by product name </p>
-    <div style="display:flex;flex-direction:column;">
-        <a href="/product/index?category=@Model.CurrentCategory&filterName=a-z&page=@Model.CurrentPage&filterPrice=@Model.FilterByPrice" style="cursor:pointer;">
-            a-z
-        </a>
-        <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=z-a&filterPrice=@Model.FilterByPrice" style="cursor:pointer;">
-            z-a
-        </a>
-    </div>
-    <p>Filtering by product price </p>
-    <div style="display:flex;flex-direction:column;">
-        <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=@Model.FilterByName&filterPrice=lower" style="cursor:pointer;">
-            Lower
-        </a>
-        <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=@Model.FilterByName&filterPrice=higher" style="cursor:pointer;">
-            Higher
-        </a>
-    </div>
-  <table class="table">
-      <thead>
-          <tr>
-              <th>Product Name</th>
-              <th>Unit Price</th>
-              <th>Units in stock</th>
-              <th></th>
-          </tr>
-      </thead>
-      <tbody>
-            @foreach(var item in Model.Products)
-            {
+
+<p>Search Products:</p>
+<input type="text" id="productSearchInput" placeholder="Type to search..." />
+
+<div id="productList">
+    @if (Model.Products == null || Model.Products.Count == 0)
+    {
+        <span class="alert alert-info">No Product Exists!</span>
+    }
+    else
+    {
+        <p>Filtering by product name </p>
+        <div style="display:flex;flex-direction:column;">
+            <a href="/product/index?category=@Model.CurrentCategory&filterName=a-z&page=@Model.CurrentPage&filterPrice=@Model.FilterByPrice" style="cursor:pointer;">
+                a-z
+            </a>
+            <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=z-a&filterPrice=@Model.FilterByPrice" style="cursor:pointer;">
+                z-a
+            </a>
+        </div>
+        <p>Filtering by product price </p>
+        <div style="display:flex;flex-direction:column;">
+            <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=@Model.FilterByName&filterPrice=lower" style="cursor:pointer;">
+                Lower
+            </a>
+            <a href="/product/index?category=@Model.CurrentCategory&page=@Model.CurrentPage&filterName=@Model.FilterByName&filterPrice=higher" style="cursor:pointer;">
+                Higher
+            </a>
+        </div>
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                        @item.ProductName
-                    </td>
-                     <td>
-                        @item.UnitPrice
-                    </td>
-                    <td>
-                        @item.UnitsInStock
-                    </td>
-                    <td>
-                        <a class="btn btn btn-success" href="/Cart/AddToCart?productId=@item.ProductId&page=@Model.CurrentPage&category=@Model.CurrentCategory">Add To Cart</a>
-                    </td>
+                    <th>Product Name</th>
+                    <th>Unit Price</th>
+                    <th>Units in stock</th>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-  </table>  
-  <product-list-pager is-admin=@false current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
-}
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Products)
+                {
+                    var style = item.UnitsInStock == 0 ? "background-color:rgba(255,0,0,0.5);" : "";
+                    <tr style="@style">
+                        <td>@item.ProductName</td>
+                        <td>@item.UnitPrice</td>
+                        <td>@item.UnitsInStock</td>
+                        @if (style == "")
+                        {
+                            <td>
+                                <a class="btn btn-success" href="/Cart/AddToCart?productId=@item.ProductId&page=@Model.CurrentPage&category=@Model.CurrentCategory">Add To Cart</a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <product-list-pager is-admin="@false" current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
+    }
+</div>

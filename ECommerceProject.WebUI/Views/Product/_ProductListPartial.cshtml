@@ -1,0 +1,47 @@
+﻿@model ProductListViewModel
+
+@if (Model.Products == null || Model.Products.Count == 0)
+{
+    <span class="alert alert-info">No Products Exist!</span>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Unit Price</th>
+                <th>Units in Stock</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                var style = "";
+                if (item.UnitsInStock == 0)
+                {
+                    style = "background-color:rgba(255,0,0,0.5);";  // Highlight out-of-stock items
+                }
+                <tr style="@style">
+                    <td>@item.ProductName</td>
+                    <td>@item.UnitPrice</td>
+                    <td>@item.UnitsInStock</td>
+                    @if (style == "")
+                    {
+                        <td>
+                            <a class="btn btn-success" href="/Cart/AddToCart?productId=@item.ProductId&page=@Model.CurrentPage&category=@Model.CurrentCategory">Add To Cart</a>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <product-list-pager is-admin="@Model.IsAdmin"
+                        current-category="@Model.CurrentCategory"
+                        current-page="@Model.CurrentPage"
+                        page-count="@Model.PageCount"
+                        page-size="@Model.PageSize">
+    </product-list-pager>
+}

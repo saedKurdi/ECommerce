@@ -11,9 +11,26 @@ public class CartService : ICartService
         else cart.CartLines.Add(new CartLine { Product = product ,Quantity = 1 });
     }
 
+    public void DecreaseFromCart(Cart cart, int productId)
+    {
+        var cartLine = cart.CartLines.FirstOrDefault(c => c.Product.ProductId == productId);
+        cartLine.Quantity-=1;
+    }
+
+    public void IncreaseFromCart(Cart cart, int productId)
+    {
+        var cartLine = cart.CartLines.FirstOrDefault(c => c.Product.ProductId == productId);
+        cartLine.Quantity += 1;
+    }
+
     public List<CartLine> List(Cart cart)
     {
         return cart.CartLines;
+    }
+
+    public void RemoveAllItemsFromCart(Cart? cart)
+    {
+        cart.CartLines.RemoveAll(cl => cl.Product != null);
     }
 
     public void RemoveFromCart(Cart cart, int productId)
